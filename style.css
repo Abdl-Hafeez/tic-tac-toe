@@ -1,0 +1,39 @@
+
+h1 {
+    text-align: center;
+}
+
+.players {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player {
+    display: flex;
+    gap: 10px;
+}
+
+.player span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.board {
+    width: 300px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.board-btn {
+    aspect-ratio: 1;
+    background-color: #fff;
+    font-size: 2rem;
+    border: 1px solid blue;
+}
+
+.board-btn, .board-btn:disabled {
+    color: blue;
+}
